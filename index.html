@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="preload" href="/css/normalize.css">
+  <link rel="preload" href="/css/style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="pantalla__oscura--off"></div>
+  <main class="main">
+    <nav class="banner__mobil">
+      <img src="/images/logo.svg" alt="logo">
+      <img class="icon__menu" src="/images/icon-menu.svg" alt="icon__menu">
+    </nav>
+<div id="menuDektop" class="header menu__mobil--off">
+  <img id="cerrar" class="icon__close" src="/images/icon-close-menu.svg" alt="icon-close-menu">
+  <div class="header__desktop--left">
+    <nav class="menu">
+    <ul class="menu__links">
+      
+      <img class="logo" src="/images/logo.svg" alt="logo">
+    <li class="menu__item menu__item--show">
+      <a class="menu__link" href="#" id="feature">Feature <img class="menu__arrow " id="arrow__down__feature"  src="/images/icon-arrow-down.svg" alt="arrow-down"><img class="menu__arrow arrow__up--off" id="arrow__up__feature" src="/images/icon-arrow-up.svg" alt="icon-arrow-up"> </a>
+    <ul id="nesting__feature" class="menu__nesting nesting__feature--off">
+      <li class="menu__inside">
+        <a class="menu__link menu__link--inside" href="#"><img class="icon" src="/images/icon-todo.svg" alt="icon-todo"> Todo List</a>
+      </li>
+      <li class="menu__inside">
+        <a class="menu__link menu__link--inside" href="#"><img class="icon" src="/images/icon-calendar.svg" alt="icon-calendar"> Calendar</a>
+      </li>
+      <li class="menu__inside">
+        <a class="menu__link menu__link--inside" href="#"><img class="icon" src="/images/icon-reminders.svg" alt="icon-reminders"> Reminders</a>
+      </li>
+      <li class="menu__inside">
+        <a class="menu__link menu__link--inside" href="#"><img class="icon" src="/images/icon-planning.svg" alt="icon-planning"> Planning</a>
+      </li>
+    </ul>
+  </li>
+
+  <li class="menu__item menu__item--show">
+    <a id="company" class="menu__link" href="#">Company <img id="arrow__down__company" class="menu__arrow" src="/images/icon-arrow-down.svg" alt="arrow-down"> <img id="arrow__up__company" class="menu__arrow arrow__up--off" src="/images/icon-arrow-up.svg" alt="icon-arrow-up"></a>
+  <ul id="company__nesting" class="menu__nesting company__nesting--off">
+    <li class="menu__inside">
+      <a class="menu__link menu__link--inside" href="#">History</a>
+    </li>
+    <li class="menu__inside">
+      <a class="menu__link menu__link--inside" href="#">Our Team</a>
+    </li>
+    <li class="menu__inside">
+      <a class="menu__link menu__link--inside" href="#">Blog</a>
+    </li>
+  </ul>
+</li>
+
+<li class="menu__item menu__item--show">
+  <a class="menu__link sin__menu" href="#">Careers</a>
+</li>
+
+<li class="menu__item menu__item--show sin__menu">
+  <a class="menu__link" href="#">About</a>
+</li>
+    </ul>
+  </nav>
+  </div>
+    <nav class="header__desktop--right">
+      <li class="menu__item menu__item--show">
+        <a class="menu__link login--style" href="#">Login</a>
+      </li>
+      <li class="menu__item menu__item--show">
+        <a class="menu__link register--style" href="#">Register</a>
+      </li>
+    </nav>
+  </div>
+<div class="main__conteiner">
+
+  <div class="hero">
+    <img class="hero__mobil" src="/images/image-hero-mobile.png" width="100%" alt="hero">
+    <img class="hero__desktop" src="/images/image-hero-desktop.png" width="100%" alt="hero">
+  </div>
+  <content class="conteiner">
+    <h1>Make remote work</h1>
+    <p class="content">Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+      <div class="button">
+        <button class="button-style">Learn more</button>
+      </div>
+      
+  <footer class="footer">
+    <div class="img-footer">
+      <img class="icon__small"   src="/images/client-databiz.svg" alt="client-databiz">
+      <img class="icon__middle"  src="/images/client-audiophile.svg" alt="client-audiophile">
+      <img class="icon__small" src="/images/client-meet.svg" alt="client__meet">
+      <img class="icon__small" src="/images/client-maker.svg" alt="client-maker">
+    </div>
+  </footer>
+</content>
+</div>
+</main>
+<script src="/scripts.js"></script>
+</body>
+</html>
